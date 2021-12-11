@@ -1,0 +1,32 @@
+
+
+/* @font-face */
+
+@font-face{
+  font-family:"Roboto";
+  src: url('../fonts/Roboto/Roboto-Regular.ttf');
+
+}
+
+@font-face{
+  font-family:"Montserrat-Bold";
+  src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face{
+  font-family:"Tillana";
+  src: url('../fonts/Tillana/Tillana-Regular.ttf');
+  font-weight: 300;
+}
+
+@font-face{
+  font-family: "Montserrat-Regular";
+  src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+  font-weight: 700;
+}
+
+@font-face{
+  font-family:"Roboto-Italic";
+  src: url('../fonts/Roboto/Roboto-Italic.ttf');
+}

@@ -1,0 +1,54 @@
+.about {
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	width: 80%;
+	padding: 1em;
+	/* padding-top: 2em; */
+	height: 100vh;
+}
+
+.about-content {
+	display: flex;
+	width: 100%;
+}
+
+.about-desc {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-right: 2em;
+}
+
+.about-desc > p {
+	margin-bottom: 1.5em;
+	color: black;
+	line-height: 1.7em;
+	font-size: 1.15em;
+	font-family: Roboto;
+}
+
+.profile {
+	width: 32%;
+	height: 95%;
+	border: 2px solid purple;
+	border-radius: 5%;
+}
+
+.my-stack {
+	display: flex;
+	align-items: center;
+	/* display: grid; */
+	/* grid-template-columns: repeat(2,minmax(150px, 10px)); */
+
+}
+
+.my-stack ul {
+	width: 40%;
+}
+
+.stack::before {
+  content: "»";
+  color: purple;
+	margin-right: 0.5em;
+}

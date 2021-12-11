@@ -1,0 +1,27 @@
+/* import fonts from font.css file */
+@import url('./fonts.css');
+
+/* Bulma CDN */
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+/* Home CSS */
+@import './Home.css';
+
+/* About CSS */
+@import './About.css';
+
+/* Nav CSS */
+@import './Nav.css';
+
+/* General styles */
+
+.section-title {
+	font-size: 3em;
+	font-family: Montserrat-Bold;
+	color: black;
+	margin-bottom: 0.75em;
+}
+
+.emph {
+	color: purple;
+}
