@@ -1,0 +1,58 @@
+.experience {
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	width: 80%;
+	padding: 1em;
+	/* padding-top: 2em; */
+	height: 100vh;
+}
+
+.experience-content {
+	display: flex;
+	height: 70%;
+}
+
+.experience-list {
+	/* background-color: red; */
+	width: 20%;
+	margin-right: 3em;
+}
+.experience-item {
+	/* background-color: blue; */
+}
+
+.job-title {
+	font-family: Montserrat-bold;
+	font-size: 1.5em;
+	color: black;
+}
+
+.date {
+	font-family: Montserrat-regular;
+	margin: 0.2em 0 1.5em 0;
+	/* font-family: Roboto-italic; */
+}
+
+.job-desc p {
+	font-size: 1.1em;
+	margin-top: 1em;
+}
+
+.job-desc p::before {
+	content: "»";
+  color: purple;
+	margin-right: 0.5em;
+}
+
+.experience-option {
+	display: flex;
+	align-items: center;
+	height: 3em;
+	font-family: Roboto;
+}
+
+.selected {
+	border-right: 2px solid purple;
+	color: purple;
+}

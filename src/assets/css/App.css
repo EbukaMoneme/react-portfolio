@@ -10,6 +10,9 @@
 /* About CSS */
 @import './About.css';
 
+/* Experience CSS */
+@import './Experience.css';
+
 /* Nav CSS */
 @import './Nav.css';
 
@@ -18,8 +21,8 @@
 .section-title {
 	font-size: 3em;
 	font-family: Montserrat-Bold;
-	color: black;
 	margin-bottom: 0.75em;
+	margin-top: 0.75em;
 }
 
 .emph {

@@ -5,7 +5,7 @@ export default function Nav() {
 		<div className="nav">
 			<a href="#home">/home</a>
 			<a href="#about">/about</a>
-			<a href="#">/experience</a>
+			<a href="#experience">/experience</a>
 			<a href="#">/projects</a>
 			<div className="socials">
 				<LightSwitch/>
