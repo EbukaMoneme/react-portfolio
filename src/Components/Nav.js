@@ -6,7 +6,7 @@ export default function Nav() {
 			<a href="#home">/home</a>
 			<a href="#about">/about</a>
 			<a href="#experience">/experience</a>
-			<a href="#">/projects</a>
+			<a href="#projects">/projects</a>
 			<div className="socials">
 				<LightSwitch/>
 				<a href="mailto:camoneme@gmail.com">

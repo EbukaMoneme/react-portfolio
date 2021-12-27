@@ -1,3 +1,20 @@
+/* General styles */
+* {
+	color: black;
+}
+
+.section-title {
+	font-size: 3em;
+	font-family: Montserrat-Bold;
+	margin-bottom: 0.75em;
+	margin-top: 0.75em;
+}
+
+.emph {
+	color: purple;
+}
+
+
 /* import fonts from font.css file */
 @import url('./fonts.css');
 
@@ -13,18 +30,8 @@
 /* Experience CSS */
 @import './Experience.css';
 
+/* Projects CSS */
+@import './Projects.css';
+
 /* Nav CSS */
 @import './Nav.css';
-
-/* General styles */
-
-.section-title {
-	font-size: 3em;
-	font-family: Montserrat-Bold;
-	margin-bottom: 0.75em;
-	margin-top: 0.75em;
-}
-
-.emph {
-	color: purple;
-}

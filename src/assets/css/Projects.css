@@ -1,0 +1,81 @@
+.projects {
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	width: 80%;
+	padding: 1em;
+	/* padding-top: 2em; */
+	/* height: 100vh; */
+}
+
+.projects-content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/* height: 70%; */
+	/* height: 100%; */
+	width: 85%;
+}
+
+.project-item {
+	width: 32.5%;
+	/* height: 80%; */
+	color: white;
+	background-color: rgba(128, 0, 128, 0.68);
+	border-radius: 16px;
+	padding: 1em 2em 2em 2em;
+	margin-bottom: 0.5em;
+}
+
+.project-item h2{
+	color: white;
+	font-size: 1.3em;
+	font-family: Montserrat-Bold;
+	margin-bottom: 0.75em;
+
+}
+.project-item p {
+	font-family: Roboto;
+	font-family: Montserrat-Regular;
+	color: white;
+	font-size: 0.9em;
+}
+
+.desc {
+	height: 10em;
+	padding-bottom: 2em;
+}
+
+.project-item > * {
+	color: white;
+}
+
+.project-banner {
+	display: flex;
+	padding: 1em 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.project-controls {
+	display: flex;
+  justify-content: space-between;
+}
+
+.work {
+	font-size: 2em;
+	/* color: white; */
+	color: rgba(255, 194, 255, 0.68);
+}
+
+.github {
+	font-size: 1.5em;	
+	color: white;
+}
+
+.live-link {
+	/* width: 1.5em; */
+	font-size: 1.5em;	
+	margin-left: 0.4em;
+	color: white;
+}
