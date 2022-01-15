@@ -10,13 +10,13 @@ export default function Nav() {
 			<div className="socials">
 				<LightSwitch/>
 				<a href="mailto:camoneme@gmail.com">
-					<i class="fas fa-envelope"></i>
+					<i className="fas fa-envelope"></i>
 				</a>
 				<a href="https://github.com/EbukaMoneme">
-					<i class="fab fa-github"></i>
+					<i className="fab fa-github"></i>
 				</a>
 				<a href="https://www.linkedin.com/in/ebukamoneme/">
-					<i class="fab fa-linkedin"></i>
+					<i className="fab fa-linkedin"></i>
 				</a>
 			</div>
 		</div>

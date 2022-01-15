@@ -5,7 +5,8 @@
 	width: 80%;
 	padding: 1em;
 	/* padding-top: 2em; */
-	height: 100vh;
+	/* height: 100vh; */
+	padding-bottom: 20vh;
 }
 
 .experience-content {

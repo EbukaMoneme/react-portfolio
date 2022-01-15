@@ -8,7 +8,14 @@
 	right: 0;
 	padding-right: 5%;
 	bottom: 10%;
+	color: purple;
 
+}
+
+.nav > * {
+	color: purple;
+	font-family: Roboto;
+	font-weight: bold;
 }
 
 .socials {
@@ -21,4 +28,5 @@
 .socials i {
 	font-size: 1.2em;
 	margin-left: 0.3em;
+	color: purple;
 }

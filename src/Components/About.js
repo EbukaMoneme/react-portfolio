@@ -15,7 +15,7 @@ export default function About() {
 					<p>
 						Here are some technologies I have been working with:
 					</p>
-					<p className='my-stack'>
+					<div className='my-stack'>
 						<ul>
 							<li className='stack'>Javascript ES6+</li>
 							<li className='stack'>React.js</li>
@@ -26,7 +26,7 @@ export default function About() {
 							<li className='stack'>Ruby</li>
 							<li className='stack'>HTML & CSS</li>
 						</ul>
-					</p>
+					</div>
 				</div>
 				<img src={profile} alt='profile' className='profile'/>
 			</div>

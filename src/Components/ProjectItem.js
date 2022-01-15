@@ -10,7 +10,7 @@ export default function ProjectItem(props) {
 					{
 						props.live && 
 						<a href={props.live}>
-							<i class="fas fa-external-link-alt live-link"></i>
+							<i className="fas fa-external-link-alt live-link"></i>
 						</a>
 					}
 				</div>
