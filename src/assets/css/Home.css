@@ -5,7 +5,7 @@
 }
 
 .footer {
-	background-color: white;
+	background-color: transparent;
 	width: 80%;
 	height: 10vh;
 	display: flex;
@@ -13,9 +13,10 @@
 	justify-content: flex-end;
 	text-align: center;
 	align-items: center;
-	font-size: 0.7em;
+	font-size: 0.8em;
 	padding: 0;
-	margin-bottom: 0.5em;
+	padding-top: 10em;
+	margin-bottom: 1em;
 }
 
 .home {
@@ -57,16 +58,18 @@
 	margin-top: 2em;
 	padding: 1.75em 1.25em;
 	font-size: 1.2em;
-	color: purple;
-	border-color: purple;
+	color: var(--highlight-color);
+	border-color: var(--highlight-color);
+	background-color: transparent;
 }
 .my-work:hover {
-	border-color: purple;
-	background-color: rgba(172, 0, 172, 0.146);
+	border-color: var(--highlight-color);
+	color: var(--highlight-color);
+	background-color: rgba(156, 37, 215, 0.146);
 }
 
 .fa-briefcase {
 	margin-right: 0.5em;
-	color: purple;
+	color: var(--highlight-color);
 }
 

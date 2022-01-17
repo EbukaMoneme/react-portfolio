@@ -4,12 +4,12 @@ export default function ProjectItem(props) {
 			<div className="project-banner">
 				<i className="far fa-folder work"></i>
 				<div className="project-controls">
-					<a href={props.github}>
+					<a href={props.github} target="_blank" rel="noreferrer">
 						<i className="fab fa-github github"></i>
 					</a>
 					{
 						props.live && 
-						<a href={props.live}>
+						<a href={props.live} target="_blank" rel="noreferrer"> 
 							<i className="fas fa-external-link-alt live-link"></i>
 						</a>
 					}

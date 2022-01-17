@@ -1,8 +1,10 @@
-export default function LightSwitch() {
+export default function LightSwitch(props) {
+
 	return (
-		<div className="switch">
-			<i className="far fa-sun"></i>
-			{/* <i class="far fa-moon"></i> */}
+		<div onClick={props.toggle} className="switch">
+			{props.currentTheme === 'dark'?
+			<i className="far fa-sun"></i>:
+			<i className="far fa-moon"></i>}
 		</div>
 	)
 }

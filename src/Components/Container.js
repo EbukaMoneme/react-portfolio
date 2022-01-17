@@ -2,19 +2,16 @@ import Home from "./Home";
 import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
+import Footer from "./Footer";
 
-export default function Container() {
+export default function Container(props) {
 	return (
 		<div className="container">
 			<Home/>
 			<About/>
 			<Experience/>
 			<Projects/>
-			<div className="footer">
-				<p>Built by Ebuka Moneme</p>
-				<p>Inspired by Gazi Jarin</p>
-				<p>All right reserved.© </p>
-			</div>
+			<Footer/>
 		</div>
 	)
 }

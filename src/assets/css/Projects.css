@@ -21,7 +21,8 @@
 	width: 32.5%;
 	/* height: 80%; */
 	color: white;
-	background-color: rgba(128, 0, 128, 0.68);
+	/* background-color: rgba(128, 0, 128, 0.68); */
+	background-color: var(--highlight-color);
 	border-radius: 16px;
 	padding: 1em 2em 2em 2em;
 	margin-bottom: 0.5em;
@@ -65,7 +66,7 @@
 .work {
 	font-size: 2em;
 	/* color: white; */
-	color: rgba(255, 194, 255, 0.68);
+	color: var(--secondary-color);
 }
 
 .github {

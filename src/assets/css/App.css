@@ -1,6 +1,6 @@
 /* General styles */
 * {
-	color: black;
+	color: var(--font-color)
 }
 
 .section-title {
@@ -11,7 +11,7 @@
 }
 
 .emph {
-	color: purple;
+	color: var(--highlight-color);
 }
 
 

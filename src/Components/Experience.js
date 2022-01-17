@@ -1,7 +1,7 @@
 import ExperienceItem from "./ExperienceItem";
 import ExperienceList from "./ExperienceList";
 
-export default function Experience() {
+export default function Experience(props) {
 	return (
 		<div className='experience' id='experience'>
 			<h2 className='section-title'>experience</h2>

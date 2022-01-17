@@ -26,7 +26,7 @@
 .job-title {
 	font-family: Montserrat-bold;
 	font-size: 1.5em;
-	color: black;
+	/* color: black; */
 }
 
 .date {
@@ -42,7 +42,7 @@
 
 .job-desc p::before {
 	content: "»";
-  color: purple;
+  color: var(--highlight-color);
 	margin-right: 0.5em;
 }
 
@@ -54,6 +54,6 @@
 }
 
 .selected {
-	border-right: 2px solid purple;
-	color: purple;
+	border-right: 2px solid var(--highlight-color);
+	color: var(--highlight-color);
 }

@@ -46,14 +46,13 @@ const projects = [
 ]
 const parsedProjects = projects.map((project, index) => <ProjectItem {...project} key={index} />)
 
-export default function Projects() {
+export default function Projects(props) {
 	return (
 		<div className="projects" id="projects">
 			<h2 className='section-title'>projects</h2>
 			<div className="projects-content">
 				{parsedProjects}
 			</div>
-
 		</div>
 	)
 }

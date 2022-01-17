@@ -8,14 +8,18 @@
 	right: 0;
 	padding-right: 5%;
 	bottom: 10%;
-	color: purple;
+	color: var(--highlight-color);
 
 }
 
 .nav > * {
-	color: purple;
+	color: var(--highlight-color);
 	font-family: Roboto;
 	font-weight: bold;
+}
+
+.nav > *:hover {
+	color: var(--font-color);
 }
 
 .socials {
@@ -28,5 +32,9 @@
 .socials i {
 	font-size: 1.2em;
 	margin-left: 0.3em;
-	color: purple;
+	color: var(--highlight-color);
+}
+
+.socials i:hover {
+	color: var(--font-color);
 }

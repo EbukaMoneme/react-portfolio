@@ -1,6 +1,6 @@
 import LightSwitch from "./Buttons/LightSwitch"
 
-export default function Nav() {
+export default function Nav(props) {
 	return (
 		<div className="nav">
 			<a href="#home">/home</a>
@@ -8,14 +8,14 @@ export default function Nav() {
 			<a href="#experience">/experience</a>
 			<a href="#projects">/projects</a>
 			<div className="socials">
-				<LightSwitch/>
+				<LightSwitch toggle={props.toggle} currentTheme={props.currentTheme}/>
 				<a href="mailto:camoneme@gmail.com">
 					<i className="fas fa-envelope"></i>
 				</a>
-				<a href="https://github.com/EbukaMoneme">
+				<a href="https://github.com/EbukaMoneme" target="_blank" rel="noreferrer">
 					<i className="fab fa-github"></i>
 				</a>
-				<a href="https://www.linkedin.com/in/ebukamoneme/">
+				<a href="https://www.linkedin.com/in/ebukamoneme/" target="_blank" rel="noreferrer">
 					<i className="fab fa-linkedin"></i>
 				</a>
 			</div>

@@ -1,4 +1,4 @@
-export default function ExperienceItem() {
+export default function ExperienceItem(props) {
 	return (
 		<div className="experience-item">
 			<h2 className="job-title">Coding Instructor @ <span className="emph">Wiz Kid Learning</span></h2>

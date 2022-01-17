@@ -1,6 +1,6 @@
 import bannerImg from '../assets/img/banner-image.png'
 
-export default function Home() {
+export default function Home(props) {
 	return (
 		<div className='home' id='home'>
 			<div className='intro'>
