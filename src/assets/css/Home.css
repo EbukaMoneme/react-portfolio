@@ -156,17 +156,19 @@
 		margin-top: 0.75em;
 		
 	}
+
 	.intro {
-		width: 100%;
+		width: 90%;
 	}
 
-	.intro h1 {
+	/* .intro h1 {
 		font-size: 2.5em;
-	}
+	} */
 
-	.intro h2 {
+	/* .intro h2 {
 		line-height: 1;
-	}
+		margin-top: 0.1em;
+	} */
 
 	.my-work {
 		margin-top: 2em;
