@@ -14,7 +14,7 @@
 .about-desc {
 	display: flex;
 	flex-direction: column;
-	width: 50%;
+	width: 60%;
 	margin-right: 2em;
 }
 
@@ -45,4 +45,66 @@
   content: "»";
   color: var(--highlight-color);
 	margin-right: 0.5em;
+}
+
+@media screen and (max-width: 1405px){ 
+	.profile {
+		height: 90%;
+	}
+}
+
+@media screen and (max-width: 1224px){ 
+	.profile {
+		height: 70%;
+	}
+}
+
+@media screen and (max-width: 1024px){ 
+
+	.about {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.about-desc {
+		width: 100%;
+	}
+
+	.profile {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 800px){ 
+	.about {
+		display: flex;
+		flex-direction: column;
+		width: 95%;
+		/* height: 87vh; */
+
+	}
+	.profile {
+		display: none;
+	}
+
+	.about-desc {
+		width: 100%;
+	}
+
+	.about-content {
+		flex-direction: column;
+	}
+
+	.about-desc > p {
+		font-size: 1.02em;
+	}
+
+	.my-stack {
+		font-size: 0.9em;
+	}
+
+	.my-stack ul {
+		width: 50%;
+	}
+
 }

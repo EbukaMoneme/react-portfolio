@@ -1,6 +1,11 @@
 /* General styles */
 * {
-	color: var(--font-color)
+	color: var(--font-color);
+}
+
+html {
+	scroll-behavior: smooth;
+
 }
 
 .section-title {
@@ -12,6 +17,12 @@
 
 .emph {
 	color: var(--highlight-color);
+}
+
+@media screen and (max-width: 800px) {
+	.section-title {
+		font-size: 2.5em
+	}
 }
 
 

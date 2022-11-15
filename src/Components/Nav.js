@@ -3,10 +3,12 @@ import LightSwitch from "./Buttons/LightSwitch"
 export default function Nav(props) {
 	return (
 		<div className="nav">
-			<a href="#home">/home</a>
-			<a href="#about">/about</a>
-			<a href="#experience">/experience</a>
-			<a href="#projects">/projects</a>
+			<div className="links">
+				<a href="#home">/home</a>
+				<a href="#about">/about</a>
+				<a href="#experience">/experience</a>
+				<a href="#projects">/projects</a>
+			</div>
 			<div className="socials">
 				<LightSwitch toggle={props.toggle} currentTheme={props.currentTheme}/>
 				<a href="mailto:camoneme@gmail.com">

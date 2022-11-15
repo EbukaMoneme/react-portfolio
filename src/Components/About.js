@@ -3,7 +3,7 @@ import profile from '../assets/img/profile.jpg';
 export default function About(props) {
 	return (
 		<div className='about' id='about'>
-			<h2 className='section-title'>about me</h2>
+			<h2 className='section-title'>About me</h2>
 			<div className='about-content'>
 				<div className='about-desc'>
 					<p>
